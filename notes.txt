@@ -1,0 +1,5 @@
+- sometimes bullish signal comes a few periods before time to buy, for example, kdj bullish signal appears for aapl on 6/07/21 
+  but successful entry isnt until 6/11/2021
+- earnings is an indicator for success as evidenced by aapl entry on 07/10/20, no signals shown but earnings happened
+- kBreak and jBreaks precede ichimoku indicators
+- example, k/jBreaks happen, then next period baselinePriceBreak, next period priceCloudBreak, nxt period baselineConversionlineBreak

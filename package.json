@@ -1,0 +1,26 @@
+{
+  "name": "polygontest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "fastbuild": "rm -rf build/ && tsc --skipLibCheck --diagnostics -p tsconfig.json",
+    "build": "rm -rf build/ && tsc -p tsconfig.json",
+    "start": "node --experimental-modules --experimental-specifier-resolution=node --harmony ./build/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@polygon.io/client-js": "^3.0.0",
+    "@types/redis": "^2.8.32",
+    "axios": "^0.24.0",
+    "kdj": "^1.0.5",
+    "moment": "^2.29.1",
+    "redis": "^3.0.2",
+    "technicalindicators": "^3.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^16.11.6"
+  }
+}
